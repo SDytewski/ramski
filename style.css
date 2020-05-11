@@ -1,0 +1,55 @@
+body {
+    font-family: 'Teko', sans-serif;
+
+
+}
+
+.container-1 img {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.container-2 {
+    display:flex;
+
+
+}
+
+h1 {
+    text-align: center;
+    color: rgb(221, 205, 205);
+    font-size: 120px;
+    position: absolute;  
+    left: 50%;                        /* horizontal alignment */
+    top: 50%;                         /* vertical alignment */
+    transform: translate(-50%, -50%);
+    
+    }
+
+
+.container-2 div{
+
+    border: 2px #ccc solid;
+    padding: 10px;
+
+}
+
+.box-1 {
+
+    flex:1;
+}
+
+.box-2 {
+
+    flex: 1;
+
+}
+
+
+.box-3 {
+
+    flex: 1;
+
+}
