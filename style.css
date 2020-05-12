@@ -1,32 +1,94 @@
 body {
     font-family: 'Teko', sans-serif;
-
-
-}
-
-.container-1 img {
-    width: 100%;
-    height: auto;
-    display: flex;
-    justify-content: center;
-}
-
-.container-2 {
-    display:flex;
-
+    font-size: 30px;
+    margin: 0 auto;
 
 }
 
 h1 {
     text-align: center;
-    color: rgb(221, 205, 205);
+    /* color: rgb(221, 205, 205); */
+    color: rgb(236, 212, 74);
     font-size: 120px;
     position: absolute;  
     left: 50%;                        /* horizontal alignment */
     top: 50%;                         /* vertical alignment */
     transform: translate(-50%, -50%);
     
+    
     }
+
+h3 {
+
+    font-size: 50px;
+
+}
+
+/* 
+NAVBAR */
+
+.Navbar {
+    background-color: #325057;
+    display: flex;
+    padding: 16px;
+    font-family: sans-serif;
+    color: white;
+  }
+
+  .Navbar__Items {
+    display:flex;
+  }
+
+  .Navbar__Link {
+    padding-right: 8px;
+  }
+  .Navbar__Items--right {
+    margin-left:auto;
+  }
+
+  .Navbar__Link-toggle {
+    display: none;
+  }
+
+
+.container-0 { 
+    background-color: #325057;
+    
+    color: white;
+    height: 70px;
+    
+    
+  }
+
+
+
+  .container-0 > li {  
+    list-style:none;
+    flex: 1;  
+    height: 100%;
+    padding: 0; 
+  }
+
+.container-1 img {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+
+}
+
+.container-2 {
+    display: flex;
+    background-image:
+    radial-gradient(
+        #fff,
+      #9c9bc8
+    );
+
+
+}
+
+
 
 
 .container-2 div{
@@ -39,11 +101,13 @@ h1 {
 .box-1 {
 
     flex:1;
+    text-align: center;
 }
 
 .box-2 {
 
     flex: 1;
+    text-align: center;
 
 }
 
@@ -51,5 +115,44 @@ h1 {
 .box-3 {
 
     flex: 1;
+    text-align: center;
 
 }
+
+.container-3 {
+
+    display: flex;
+    flex-direction: column;
+    min-height: 20vh;
+    font-size: 19px;
+    color:white;
+    background-color: black;
+
+
+}
+
+
+@media only screen and (max-width: 768px) {
+    .Navbar__Items,
+    .Navbar {
+      flex-direction: column;
+    }
+
+    .Navbar__Items {
+        display:none;
+      }
+    .Navbar__Items--right {
+      margin-left: 0;
+
+    }
+    .Navbar__ToggleShow {
+        display: flex;
+      }
+      .Navbar__Link-toggle {
+        align-self: flex-end;
+        display: initial;
+        position: absolute;
+        cursor: pointer;
+       
+    }
+  }
