@@ -169,7 +169,52 @@ h4 {
 
 }
 
+
 .container-3 {
+  /* display: flex; */
+
+  background-image:
+  radial-gradient(
+      #fff,
+    #9c9bc8
+  );
+
+}
+
+
+.container-3 div{
+
+  border: 2px #ccc solid;
+  padding: 10px;
+
+}
+
+.box-1 {
+
+  flex:1;
+  text-align: center;
+}
+
+.box-2 {
+
+  flex: 1;
+  text-align: center;
+
+}
+
+
+.box-3 {
+
+  flex: 1;
+  text-align: center;
+
+}
+
+
+
+
+
+.container-4 {
 
     display: flex;
     flex-direction: column;
@@ -222,6 +267,11 @@ h4 {
     display: flex;
   }
   
+  .container-3 {
+    display: flex;
+  }
+
+
 }
 
 
