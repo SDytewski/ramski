@@ -1,9 +1,16 @@
+html {
+  scroll-behavior: smooth;
+}
+
+
 body {
     font-family: 'Teko', sans-serif;
     font-size: 30px;
     margin: 0 auto;
 
 }
+
+
 
 #nav{
   text-transform: uppercase;

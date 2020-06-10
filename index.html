@@ -30,7 +30,7 @@
                 <a href="#" class="text-white" id="nav">About</a>
               </div>
               <div class="Navbar__Link">
-                <a href="#" class="text-white" id="nav">Contact Us</a>
+                <a data-smooth="#contact" href="#contact" class="text-white" id="nav">Contact Us</a>
             </div>
         </nav>
       </div>
@@ -91,12 +91,13 @@
             </p>
         </div>  
     </div>
-
+<div id="contact">
     <form name="submit-to-google-sheet">
       <input name="email" type="email" placeholder="Email" required>
       <input name="firstName" type="text" placeholder="First Name">
        <input name="lastName" type="text" placeholder="Last Name">
-      <button type="submit">Send</button>
+      <button onclick="myFunction()" type="submit">Send</button>
+      <p id="MessageSend"></p>
     </form>
     
     <script>
@@ -110,6 +111,8 @@
           .catch(error => console.error('Error!', error.message))
       })
     </script>
+
+</div>
 
     <div class="container-3">
 
