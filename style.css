@@ -10,6 +10,9 @@ body {
 
 }
 
+ul {
+  list-style-type: none;
+  }
 
 
 #nav{
@@ -24,7 +27,17 @@ background-color:yellow;
 
 text-decoration: none;
 color: #333 !important;
+}
 
+#SendEmail {
+
+  padding-left: 20px;
+
+}
+
+#contact {
+
+  padding-left: 40px;
 
 
 }
