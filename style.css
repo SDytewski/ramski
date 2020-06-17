@@ -14,9 +14,11 @@ ul {
   list-style-type: none;
   }
 
+/* Alert for bootstrap in scripts.js */
 
   .alert {
-    height:100px;
+    height:80px;
+
     z-index: 9;
     position: absolute;
     
