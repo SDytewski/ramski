@@ -17,9 +17,9 @@ ul {
 /* Alert for bootstrap in scripts.js */
 
   .alert {
-    height:80px;
-
-    z-index: 9;
+    height:120px;
+    
+    /* z-index: 9; */
     position: absolute;
     
     
@@ -302,7 +302,7 @@ h4 {
   .alert {
 
     display: flex;
-    margin-left: -160px;
+    margin-left: -190px;
 
   }
 
