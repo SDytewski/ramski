@@ -11,9 +11,20 @@ function classToggle() {
     .addEventListener('click', classToggle);
 
   function myFunction() {
-     document.getElementById("MessageSend").innerHTML = "Message Sent!";
-    }
+        document.getElementById("MessageSend").innerHTML = 
+        '<div class=container> <div class="alert alert-dark"><a href="#" class="close" data-dismiss="alert" aria-label="close">×</a><strong>If all fields were filled out then message was sent!</strong></div></div>';
+  
+  // }
+  // function startAgain() { setTimeout(function () {
+  //        document.getElementById('MessageSend').style.display='none';
+  //    }, 7000);
+  
+        
+    
+    };
 
+  
+    
     // inspired by https://css-tricks.com/snippets/jquery/smooth-scrolling/
 
 var TopOffset = 85;    

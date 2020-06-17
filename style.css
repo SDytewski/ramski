@@ -15,6 +15,14 @@ ul {
   }
 
 
+  .alert {
+    height:100px;
+    z-index: 9;
+    position: absolute;
+    
+    
+  }
+
 #nav{
   text-transform: uppercase;
   padding: 10px;
@@ -32,6 +40,11 @@ color: #333 !important;
 #SendEmail {
 
   padding-left: 20px;
+
+}
+
+#ContactHeading {
+padding-left: 33px;
 
 }
 
@@ -282,6 +295,13 @@ h4 {
   
   .container-3 {
     display: flex;
+  }
+
+  .alert {
+
+    display: flex;
+    margin-left: -160px;
+
   }
 
 
