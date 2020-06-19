@@ -12,16 +12,17 @@ body {
     background-image:
     radial-gradient(
         #fff,
-      #9c9bc8
-    );
+      /* #9c9bc8 */
+      #d3d3e2
 
+    );
 }
 
 
 .site-wrapper {
  display: flex;
  flex-direction: column;
- min-height: 100vh
+  min-height: 100vh; 
 
 }
 
@@ -33,7 +34,8 @@ body {
 
 ul {
   list-style-type: none;
-  }
+}
+
 
 /* Alert for bootstrap in scripts.js */
 
@@ -46,23 +48,16 @@ ul {
     
   }
 
-#nav{
-  text-transform: uppercase;
-  padding: 10px;
-
-}
 
 
-#nav:hover {
-background-color:yellow;
 
-text-decoration: none;
-color: #333 !important;
-}
+/* Contact form */
 
 #SendEmail {
 
   padding-left: 20px;
+  align-items: center;
+  justify-content: center;
 
 }
 
@@ -78,24 +73,32 @@ padding-left: 33px;
 
 }
 
-h1 {
-    text-align: center;
+/* Headers */
+
+
+    /* text-align: center;
     color: rgb(221, 205, 205);
 
     position: absolute; 
-    padding-bottom: 80px; 
+    padding-bottom: 80px;  */
     /* left: 50%;                        
     top: 30%;                        
     transform: translate(-50%, -50%); */
     
     
     
+    h1{
+
+      color:yellow;
+      background-color: black;
+      padding-top: 12px;
+
     }
 
 h2 {
 
-    font-size: 80px;
-    color: yellow;
+    font-size: 120px;
+    color: rgba(238, 238, 0, 1);
     text-shadow: -3px -3px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
     background-color: rgba(255, 255, 255, 0.7);
   
@@ -122,16 +125,22 @@ h4 {
 
 .Navbar {
     /* background-color: #325057; */
-    background-color: #61615b; ;
+    background-color: #151616; 
+      /* background-color: #76757a;   */
     display: flex;
     padding: 16px;
-    font-size: 20px;
+    font-size: 25px;
     font-family: sans-serif;
     color: white;
+
   }
 
   .Navbar__Items {
     display:flex;
+    /* background: black; */
+    padding: 20px;
+    font-family:   Impact;
+    font-weight:lighter;
   }
 
   .Navbar__Link {
@@ -145,6 +154,36 @@ h4 {
     display: none;
   }
 
+  .Navbar__Link-brand {
+  color: rgba(238, 238, 0, 1);
+/* font-weight: bold; */
+padding-top: 10px;
+font-family:  Impact;
+font-size: 30px;
+text-shadow: -1px -1px 0 #000, 3px -1px 0 #000, -1px 1px 0 #000, 3px 1px 0 #000;
+
+
+  }
+
+
+#nav{
+  text-transform: uppercase;
+  padding: 10px;
+
+}
+
+
+#nav:hover {
+background-color:yellow;
+
+text-decoration: none;
+color: #333 !important;
+}
+
+
+/* Carousel  */
+
+
   .carousel-item:after {
     content:"";
     display:block;
@@ -153,7 +192,8 @@ h4 {
     bottom:0;
     left:0;
     right:0;
-    background:rgba(117, 113, 113, 0.7);
+    background:rgba(32, 32, 32, 0.7);
+    
   }
 
 
@@ -179,23 +219,54 @@ h4 {
   }
   
 
-/* .container-2 { */
-    /* display: flex; */
-/*   
-    background-image:
-    radial-gradient(
-        #fff,
-      #9c9bc8
-    );
-
-} */
 
 .container-2 div{
 
     border: 2px #ccc solid;
-    padding: 10px;
+    padding: 40px;
 
 }
+
+
+.container-3 div{
+
+  border: 2px #ccc solid;
+  padding: 40px;
+
+}
+
+
+
+
+.container-4 {
+
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  padding: 40px;
+ 
+
+}
+
+/* Footer */
+.container-5 {
+
+  font-size: 23px; 
+  display: flex;
+  align-items: flex-start;
+
+  /* min-height: 20vh;
+  font-size: 19px; */
+  color:white;
+  background-color: rgb(58, 57, 57);
+  /* padding: 14px; */
+  padding-top: 25px;
+ 
+  padding-right:5px;
+
+}
+
+/* Main Content boxes */
 
 .box-1 {
 
@@ -219,32 +290,16 @@ h4 {
 }
 
 
-/* .container-3 { */
-  /* display: flex; */
-
-  /* background-image:
-  radial-gradient(
-      #fff,
-    #9c9bc8
-  ); */
-
-/* } */
-
-
-.container-3 div{
-
-  border: 2px #ccc solid;
-  padding: 10px;
-
-}
-
+/* Footer Boxes  */
 
 
 .box-4 {
-
-  flex:1;
+  padding-left: 20px;
+  flex: 1;
   text-align: left;
 }
+
+
 
 .box-5 {
 
@@ -252,7 +307,6 @@ h4 {
   text-align: left;
 
 }
-
 
 .box-6 {
 
@@ -264,34 +318,7 @@ h4 {
 
 
 
-#SendEmail {
-  align-items: center;
-  justify-content: center;
 
-}
-
- .container-5 {
-
-  display: flex;
-  align-items: flex-start;
-  flex-direction: column;
-  min-height: 100vh;
-  
-
-} 
-
-.container-4 {
-
-    display: flex;
-    align-items: flex-start;
-  
-    /* min-height: 20vh;
-    font-size: 19px; */
-    color:white;
-    background-color: black;
-
-
-}
 
 /******Media Queries *******/
 
@@ -319,9 +346,7 @@ h4 {
    
                
     }
-    h2{
-      font-size:44px;
-  }
+  
  
   .container-1 {
 
