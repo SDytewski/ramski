@@ -3,10 +3,31 @@ html {
 }
 
 
+
+
 body {
     font-family: 'Teko', sans-serif;
     font-size: 30px;
     margin: 0 auto;
+    background-image:
+    radial-gradient(
+        #fff,
+      #9c9bc8
+    );
+
+}
+
+
+.site-wrapper {
+ display: flex;
+ flex-direction: column;
+ min-height: 100vh
+
+}
+
+.site-content {
+
+ flex: 1;
 
 }
 
@@ -158,16 +179,16 @@ h4 {
   }
   
 
-.container-2 {
+/* .container-2 { */
     /* display: flex; */
-  
+/*   
     background-image:
     radial-gradient(
         #fff,
       #9c9bc8
     );
 
-}
+} */
 
 .container-2 div{
 
@@ -198,16 +219,16 @@ h4 {
 }
 
 
-.container-3 {
+/* .container-3 { */
   /* display: flex; */
 
-  background-image:
+  /* background-image:
   radial-gradient(
       #fff,
     #9c9bc8
-  );
+  ); */
 
-}
+/* } */
 
 
 .container-3 div{
@@ -217,37 +238,55 @@ h4 {
 
 }
 
-.box-1 {
+
+
+.box-4 {
 
   flex:1;
-  text-align: center;
+  text-align: left;
 }
 
-.box-2 {
+.box-5 {
 
   flex: 1;
-  text-align: center;
+  text-align: left;
 
 }
 
 
-.box-3 {
+.box-6 {
 
   flex: 1;
-  text-align: center;
+  text-align: left;
 
 }
 
 
 
 
+#SendEmail {
+  align-items: center;
+  justify-content: center;
+
+}
+
+ .container-5 {
+
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  min-height: 100vh;
+  
+
+} 
 
 .container-4 {
 
     display: flex;
-    flex-direction: column;
-    min-height: 20vh;
-    font-size: 19px;
+    align-items: flex-start;
+  
+    /* min-height: 20vh;
+    font-size: 19px; */
     color:white;
     background-color: black;
 
@@ -283,7 +322,12 @@ h4 {
     h2{
       font-size:44px;
   }
-  
+ 
+  .container-1 {
+
+    padding-top:60px;
+
+  }
 
 }
 
@@ -305,6 +349,9 @@ h4 {
     margin-left: -190px;
 
   }
+
+
+ 
 
 
 }
