@@ -143,10 +143,15 @@ h4 {
 filter:grayscale(30%);
 filter: brightness(135%);
 /* filter: contrast(120%); */
-padding-top: 10px;
+/* padding-top: 5px; */
 /* font-family:  Impact; */
 /* font-size: 30px;
 text-shadow: -1px -1px 0 #000, 3px -1px 0 #000, -1px 1px 0 #000, 3px 1px 0 #000; */
+
+  }
+
+  #ramskiLogo {
+padding-top: 39px;
 
   }
 
