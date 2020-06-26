@@ -207,6 +207,16 @@ header {
 }
 
 
+#slogan {
+  /* Not mobile responsive yet */
+  position: absolute;  
+  left: 50%;                        /* horizontal alignment */
+  top: 60%;                         /* vertical alignment */
+  transform: translate(-50%, -50%); /* precise centering; see link below */
+  font-size: 60px;
+
+}
+
 /*****Containers*****/
 
 
