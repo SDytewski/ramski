@@ -177,20 +177,34 @@ color: #333 !important;
 }
 
 
-/* Carousel  */
+/* Overlay  */
 
+header {
+  /* height: 600px; */
+  width: 100vw;
+  background: black;
+  overflow: hidden;
+  position: relative;
+  top: 0;
+  left: 0;
+}
 
-  .carousel-item:after {
-    content:"";
-    display:block;
-    position:absolute;
-    top:0;
-    bottom:0;
-    left:0;
-    right:0;
-    background:rgba(0, 0, 0, 0.7);
-    
-  }
+#hero {
+ object-fit: cover;
+ opacity: 0.3;
+ position: relative;
+ top: 0;
+ left: 0;
+ border: 1px red solid;
+}
+
+#textImage {
+  position: absolute;
+  top: 220px;
+  left: 160px;
+  border: 1px green solid;
+
+}
 
 
 /*****Containers*****/
@@ -354,6 +368,17 @@ color: #333 !important;
     padding-top:60px;
 
   }
+
+
+  #textImage {
+
+    /* position: absolute; */
+    top: 80px;
+    left: 10px;
+    border: 1px green solid;
+    width: 90%;
+  }
+
 
 }
 
