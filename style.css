@@ -32,8 +32,7 @@ ul {
 }
 
 #black-background {
-  background-color: black;
-}
+  background: #000}
 
 /* Alert for bootstrap in scripts.js */
 
@@ -206,7 +205,8 @@ header {
   position: absolute;
   top: 220px;
   left: 160px;
-  /* border: 1px green solid; */
+  border-top: 10px rgb(5, 5, 5) solid;
+   border-bottom: 150px rgb(5, 5, 5) solid;
 
 }
 
