@@ -219,10 +219,10 @@ header {
 
 .btn  {
   position:absolute;
-  bottom:10px;
-  width:100px;
-  height:30px;
-
+  bottom:70px;
+  width:190px;
+  height:60px;
+  font-size: 29px;
 }
 
 /*****Containers*****/
