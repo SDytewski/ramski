@@ -3,8 +3,9 @@ html {
 }
 
 body {
-    font-family: 'Teko', sans-serif;
-    font-size: 30px;
+    /* font-family: 'Teko', sans-serif; */
+    font-family: arial;
+    font-size: 20px;
     margin: 0 auto;
     background-image:
     radial-gradient(
@@ -30,6 +31,9 @@ ul {
   list-style-type: none;
 }
 
+#black-background {
+  background-color: black;
+}
 
 /* Alert for bootstrap in scripts.js */
 
@@ -213,7 +217,7 @@ header {
   left: 50%;                        /* horizontal alignment */
   top: 60%;                         /* vertical alignment */
   transform: translate(-50%, -50%); /* precise centering; see link below */
-  font-size: 60px;
+  font-size: 50px;
 
 }
 
