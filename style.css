@@ -203,10 +203,10 @@ header {
 
 #textImage {
   position: absolute;
-  top: 220px;
+  top: 140px;
   left: 160px;
-  border-top: 10px rgb(5, 5, 5) solid;
-   border-bottom: 150px rgb(5, 5, 5) solid;
+  border-top: 20px rgb(3, 3, 3) solid;
+   border-bottom: 130px rgb(3, 3, 3) solid;
 
 }
 
@@ -215,7 +215,7 @@ header {
   /* Not mobile responsive yet */
   position: absolute;  
   left: 50%;                        /* horizontal alignment */
-  top: 60%;                         /* vertical alignment */
+  top: 45%;                         /* vertical alignment */
   transform: translate(-50%, -50%); /* precise centering; see link below */
   font-size: 50px;
 
