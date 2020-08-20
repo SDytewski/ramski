@@ -224,9 +224,9 @@ header {
 .btn  {
   position:absolute;
   bottom:70px;
-  width:190px;
+  width:290px;
   height:60px;
-  font-size: 29px;
+  font-size: 24px;
 }
 
 /*****Containers*****/
