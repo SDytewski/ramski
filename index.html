@@ -8,7 +8,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Teko:wght@500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" 
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
     integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="style.css">
   <script src="https://kit.fontawesome.com/fc5379d09c.js" crossorigin="anonymous"></script>
@@ -81,7 +81,7 @@
     </div>
 
     <div class="site-content">
-<!-- 
+      <!-- 
       <div class="container-2">
 
         <div class="box-1">
@@ -143,64 +143,73 @@
 
       </div>
       <div class="container-4">
+        <div class="box-7">
 
-        <div id="SendEmail">
-          <h3 id="ContactHeading">Ready to work with us?</h3>
-          <p id="MessageSend"></p>
-          <form name="submit-to-google-sheet">
-            <ul>
-              <li><p>Email</p></li>
-              <li> <input name="email" type="email" placeholder="Email" required> </li>
-              <li><p>First Name</p></li>
-              <li> <input name="firstName" type="text" placeholder="First Name"> </li>
-              <li><p>Last Name</p></li>
-              <li> <input name="lastName" type="text" placeholder="Last Name"> </li>
-              <li><p>Message</p></li>
-              <li> <input name="message" type="text" placeholder="message"> </li>
-            </ul>
+          <div id="SendEmail">
+            <h3 id="ContactHeading">Ready to work with us?</h3>
+            <p id="MessageSend"></p>
+            <form name="submit-to-google-sheet">
+              <ul>
+                <p>Email</p>
+                <li> <input name="email" type="email" placeholder="Email" required> </li>
+                <p>First Name</p>
+                <li> <input name="firstName" type="text" placeholder="First Name"> </li>
+                <p>Last Name</p>
+                <li> <input name="lastName" type="text" placeholder="Last Name"> </li>
+                <p>Message</p>
+                <li> <input name="message" type="text" placeholder="message"> </li>
+              </ul>
 
-            <div id="contact"> <button onclick="myFunction()" type="submit">Send</button>
+              <div id="contact"> <button onclick="myFunction()" type="submit">Send</button>
 
 
+            </form>
+          </div>
+        </div>
+        
+        <div class="box-8">
+          <p>sadlfj a;k sdjf;as kj;dj;sadf kdsajkdafjfskf dskda fskfads kdafskfad skjadfsk jkasjdfksdjfa></p>
 
-          </form>
         </div>
 
-        <script>
-          const scriptURL = 'https://script.google.com/macros/s/AKfycbzqSHzUT0d1b9Jl3LHvBCWzczTUiB5Nfnv3Ixe22ln5qBf1JEQH/exec'
-          const form = document.forms['submit-to-google-sheet']
-
-          form.addEventListener('submit', e => {
-            e.preventDefault()
-            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
-              .then(response => console.log('Success!', response))
-              .catch(error => console.error('Error!', error.message))
-          })
-        </script>
-
       </div>
 
 
+      <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzqSHzUT0d1b9Jl3LHvBCWzczTUiB5Nfnv3Ixe22ln5qBf1JEQH/exec'
+        const form = document.forms['submit-to-google-sheet']
 
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+            .then(response => console.log('Success!', response))
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
 
     </div>
 
-    <div class="container-5">
-      <!-- <footer class="footer"> -->
-      <div class="box-4">
 
-        
-      </div>
-      <div class="box-5">
-        <h3> </h3>
-        <img id="ramski-about" class="d-block w-100" src="images/ramskiTest2.png" alt="W3Schools.com">
-        <p>Lorem ipsum Ised unt Lorem ipsum Ised unt Lorem ipsum Ised unt Lorem ipsum Ised unt</p>
-         <p> <i class="fas fa-phone-square-alt"></i>  555-555-5555      <i class="fab fa-facebook"></i> </p>
-         <p> Ramski Machinary Copyright 2020</p>
-      </div>
-     
-      <!-- </footer> -->
-    </div>
+
+
+</div>
+
+<div class="container-5">
+  <!-- <footer class="footer"> -->
+  <div class="box-4">
+
+
+  </div>
+  <div class="box-5">
+    <h3> </h3>
+    <img id="ramski-about" class="d-block w-100" src="images/ramskiTest2.png" alt="W3Schools.com">
+    <p>Lorem ipsum Ised unt Lorem ipsum Ised unt Lorem ipsum Ised unt Lorem ipsum Ised unt</p>
+    <p> <i class="fas fa-phone-square-alt"></i> 555-555-5555 <i class="fab fa-facebook"></i> </p>
+    <p> Ramski Machinary Copyright 2020</p>
+  </div>
+
+  <!-- </footer> -->
+</div>
 
 </div>
 <script src="scripts.js"></script>

@@ -269,17 +269,31 @@ header {
 }
 
 
-
-
-.container-4 {
-
+.container-4 div{
   display: flex;
+  border: 2px #ccc solid;
+  padding: 40px;
+  
+
+}
+
+
+
+
+
+
+  /* display: flex;
   align-items: flex-start;
   flex-direction: column;
   padding: 40px;
- 
+  outline-style: solid;
+  */
 
-}
+  
+  /* border: 2px #ccc solid;
+  padding: 40px; */
+
+
 
 /* Footer */
 .container-5 {
@@ -327,6 +341,22 @@ header {
 }
 
 
+
+.box-7 {
+
+  flex: 1;
+  text-align: center;
+
+}
+
+
+.box-8 {
+
+  flex: 1;
+  text-align: center;
+
+}
+
 /* Footer Boxes  */
 
 
@@ -345,12 +375,13 @@ header {
 
 }
 
-.box-6 {
+/* .box-6 {
 
   flex: 1;
   text-align: left;
 
-}
+} */
+
 
 /****** Images **********/
 
@@ -422,6 +453,14 @@ header {
   .container-3 {
     display: flex;
   }
+
+  .container-4 {
+   
+    display: flex;
+  }
+
+
+  
 
   .alert {
 
