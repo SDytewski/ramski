@@ -46,10 +46,19 @@ ul {
 
 /* Contact form */
 
+/* #MessageSend {
+
+
+
+
+} */
+
+
 #SendEmail {
   padding-left: 20px;
   align-items: center;
   justify-content: center;
+  background-color: white;
   }
 
 #ContactHeading {
