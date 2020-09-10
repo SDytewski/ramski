@@ -144,8 +144,9 @@
       </div>
       <div class="container-4">
         <div class="box-7">
+          
 
-          <!-- <div id="SendEmail">
+            <!-- <div id="SendEmail">
 
             <form name="submit-to-google-sheet">
               <ul>
@@ -169,98 +170,102 @@
             </form> -->
 
 
-
-            <form name="submit-to-google-sheet">
-              <div class="form-group row">
-                <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
-                <div class="col-sm-10">
-                  <input name="email" type="email" class="form-control" id="inputEmail3" placeholder="Email">
+            <div id="SendEmail">
+              <form name="submit-to-google-sheet">
+                <div class="form-group row">
+                  <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+                  <div class="col-sm-10">
+                    <input name="email" type="email" class="form-control" id="inputEmail3" placeholder="Email">
+                  </div>
                 </div>
-              </div>
-              <div class="form-group row">
-                <label for="inputPassword3" class="col-sm-2 col-form-label">First name</label>
-                <div class="col-sm-10">
-                  <input name="firstName" type="text" class="form-control" id="inputPassword3" placeholder="First name">
+                <div class="form-group row">
+                  <label for="inputPassword3" class="col-sm-2 col-form-label">First name</label>
+                  <div class="col-sm-10">
+                    <input name="firstName" type="text" class="form-control" id="inputPassword3"
+                      placeholder="First name">
+                  </div>
                 </div>
-              </div>
-              <div class="form-group row">
-                <label for="inputPassword3" class="col-sm-2 col-form-label">Last name</label>
-                <div class="col-sm-10">
-                  <input name="lastName" type="text" class="form-control" id="inputPassword3" placeholder="Last name">
+                <div class="form-group row">
+                  <label for="inputPassword3" class="col-sm-2 col-form-label">Last name</label>
+                  <div class="col-sm-10">
+                    <input name="lastName" type="text" class="form-control" id="inputPassword3" placeholder="Last name">
+                  </div>
                 </div>
-              </div>
-              <div class="form-group row">
-                <label for="inputPassword3" class="col-sm-2 col-form-label">Message</label>
-                <div class="col-sm-10">
-                  <input name="message" type="text" class="form-control" id="inputPassword3" placeholder="Message">
+                <div class="form-group row">
+                  <label for="inputPassword3" class="col-sm-2 col-form-label">Message</label>
+                  <div class="col-sm-10">
+                    <input name="message" type="text" class="form-control" id="inputPassword3" placeholder="Message">
+                  </div>
                 </div>
-              </div>
-          <div class="form-group row">
-            <div class="col-sm-10">
-              <button type="submit" class="btn btn-info"  onclick="myFunction()">Contact Us</button>
+                <div class="form-group row">
+                  <div class="col-sm-10">
+                    <button type="submit" class="btn btn-info" onclick="myFunction()">Contact Us</button>
+                  </div>
+                </div>
+              </form>
             </div>
+
+
+
+
+            <div class="box-8">
+              <p>sadlfj a;k sdjf;as kj;dj;sadf kdsajkdafjfskf dskda fskfads kdafskfad skjadfsk jkasjdfksdjfa></p>
+
+            </div>
+
           </div>
-          </form>
+
+
+          <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbzqSHzUT0d1b9Jl3LHvBCWzczTUiB5Nfnv3Ixe22ln5qBf1JEQH/exec'
+            const form = document.forms['submit-to-google-sheet']
+
+            form.addEventListener('submit', e => {
+              e.preventDefault()
+              fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => console.log('Success!', response))
+                .catch(error => console.error('Error!', error.message))
+            })
+          </script>
+
+        </div>
+
+
+
+
+      </div>
+
+      <div class="container-5">
+        <!-- <footer class="footer"> -->
+        <div class="box-4">
 
 
         </div>
-      </div>
+        <div class="box-5">
+          <h3> </h3>
+          <img id="ramski-about" class="d-block w-100" src="images/ramskiTest2.png" alt="W3Schools.com">
+          <p>Lorem ipsum Ised unt Lorem ipsum Ised unt Lorem ipsum Ised unt Lorem ipsum Ised unt</p>
+          <p> <i class="fas fa-phone-square-alt"></i> 555-555-5555 <i class="fab fa-facebook"></i> </p>
+          <p> Ramski Machinary Copyright 2020</p>
+        </div>
 
-      <div class="box-8">
-        <p>sadlfj a;k sdjf;as kj;dj;sadf kdsajkdafjfskf dskda fskfads kdafskfad skjadfsk jkasjdfksdjfa></p>
-
+        <!-- </footer> -->
       </div>
 
     </div>
+    <script src="scripts.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"></script>
 
 
-    <script>
-      const scriptURL = 'https://script.google.com/macros/s/AKfycbzqSHzUT0d1b9Jl3LHvBCWzczTUiB5Nfnv3Ixe22ln5qBf1JEQH/exec'
-      const form = document.forms['submit-to-google-sheet']
-
-      form.addEventListener('submit', e => {
-        e.preventDefault()
-        fetch(scriptURL, { method: 'POST', body: new FormData(form) })
-          .then(response => console.log('Success!', response))
-          .catch(error => console.error('Error!', error.message))
-      })
-    </script>
-
-</div>
-
-
-
-
-</div>
-
-<div class="container-5">
-  <!-- <footer class="footer"> -->
-  <div class="box-4">
-
-
-  </div>
-  <div class="box-5">
-    <h3> </h3>
-    <img id="ramski-about" class="d-block w-100" src="images/ramskiTest2.png" alt="W3Schools.com">
-    <p>Lorem ipsum Ised unt Lorem ipsum Ised unt Lorem ipsum Ised unt Lorem ipsum Ised unt</p>
-    <p> <i class="fas fa-phone-square-alt"></i> 555-555-5555 <i class="fab fa-facebook"></i> </p>
-    <p> Ramski Machinary Copyright 2020</p>
-  </div>
-
-  <!-- </footer> -->
-</div>
-
-</div>
-<script src="scripts.js"></script>
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-  integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-  integrity="sha384-ApNbgh9+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-  integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-
-
-</body>
+  </body>
 </div>
 
 </html>
