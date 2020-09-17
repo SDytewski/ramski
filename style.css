@@ -231,13 +231,15 @@ header {
 
 }
 
-.btn  {
+#button-main {
   position:absolute;
   bottom:70px;
   width:290px;
   height:60px;
   font-size: 24px;
 }
+
+
 
 /*****Containers*****/
 
@@ -281,7 +283,7 @@ header {
 .container-4 div{
   display: flex;
   /* border: 2px #ccc solid; */
-  padding: 40px;
+  padding: 20px;
   
 
 }
@@ -354,7 +356,7 @@ header {
 .box-7 {
 
   flex: 1;
-  text-align: center;
+  
   /* min-width: 0;
 min-height: 0;
 overflow: hidden; */
