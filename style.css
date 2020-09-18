@@ -58,6 +58,10 @@ ul {
   padding-left: 20px;
   align-items: center;
   justify-content: center;
+  background-color: white;
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 5px 8px 6px #888888;
   
   }
 
@@ -112,6 +116,13 @@ h4 {
   position: absolute; 
   color: white;
 
+
+
+}
+
+h5 {
+
+  font-size: 25px;
 
 
 }
@@ -283,7 +294,9 @@ header {
 .container-4 div{
   display: flex;
   /* border: 2px #ccc solid; */
-  padding: 20px;
+  /* padding: 20px; */
+  padding-top: 5px;
+  padding-left: 20px;
   
 
 }
